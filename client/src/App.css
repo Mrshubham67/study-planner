@@ -1,0 +1,46 @@
+.dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.task-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.filter-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  background: #e5e7eb;
+  color: #374151;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+}
+
+.filter-btn.active {
+  background: #1f6feb;
+  color: white;
+}
+
+.filter-btn:hover {
+  opacity: 0.95;
+}
+
+.error-message {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin: 0;
+}

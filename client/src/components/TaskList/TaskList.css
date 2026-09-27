@@ -1,0 +1,14 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.empty-state {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  color: #4b5563;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+}

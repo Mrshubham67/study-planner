@@ -1,0 +1,15 @@
+.navbar {
+  background: #1f6feb;
+  color: white;
+  padding: 1rem 1.5rem;
+}
+
+.nav-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.7rem;
+}
